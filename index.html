@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Validation</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="page.css" />
+  </head>
+  <body>
+    <div class="page">
+      <h1 style="color: white; text-align: center">Form Validation</h1>
+      <h3 style="padding-left: 140px; color: aliceblue">Registration Info</h3>
+      <form id="myForm" action="#" method="POST" class="pavan">
+        <div>
+          <label for="fullname">Full Name: </label>
+          <input
+            type="text"
+            id="fullname"
+            name="fullname"
+            required
+            minlength="5"
+          />
+        </div>
+        <div>
+          <label for="email">Email ID: </label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+          <label for="phone">Phone Number:</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            required
+            minlength="10"
+            pattern="[0-9]{10}"
+            oninvalid="setCustomValidity('Please enter a valid phone number')"
+            oninput="setCustomValidity('')"
+          />
+        </div>
+        <div>
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+            minlength="8"
+            oninvalid="setCustomValidity('Password is not Strong.Password must be at least 8 characters long')"
+            oninput="setCustomValidity('')"
+          />
+        </div>
+        <div>
+          <label for="confirmpassword">Confirm Password:</label>
+          <input
+            type="password"
+            id="confirmpassword"
+            name="confirmpassword"
+            required
+            minlength="8"
+            oninvalid="setCustomValidity('Password doesn\'t match ')"
+            oninput="setCustomValidity('')"
+          />
+        </div>
+        <div>
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+    <script src="form-validation.js"></script>
+  </body>
+</html>

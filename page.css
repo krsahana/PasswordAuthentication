@@ -1,0 +1,66 @@
+.page{
+    
+    margin-left: 10px;
+    margin-top: -29px ;
+    text-align: left;
+    font-size: 24px;
+    padding: 25px;
+  }
+
+div{
+  padding-left: 32px;
+    align-self: justify;
+    height: 60px;
+  }
+  input[type="text"] {
+    width: 20%;
+    height: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    
+  }
+  input[type="email"] {
+    width: 20%;
+    height: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    
+  
+  }
+  input[type="tel"] {
+    width: 20%;
+    height: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    
+  }
+  input[type="password"] {
+    width: 20%;
+    height: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    
+  
+  }
+  input[type="confirmpassword"] {
+    width: 20%;
+    height: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    
+  }
+  
+  label{
+    color: aliceblue;
+    width:200px;
+    display:inline-block;
+  }
+  body{
+      background-image: url('https://images.rawpixel.com/image_1300/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMTYtYy0wOF8xLWtzaDZtemEzLmpwZw.jpg');
+    background-size: 150% 900% ;
+        background-repeat: no-repeat;
+      }
+
+  
+
+  
